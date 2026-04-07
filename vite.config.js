@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api': 'https://learning-backend-n440.onrender.com'
+      '/api': 'http://localhost:8000'
     }
   }
 })
